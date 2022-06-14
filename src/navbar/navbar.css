@@ -1,0 +1,133 @@
+button {
+    border: none;
+    background: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #005d70;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.navbar-brand img {
+    display:block;
+    position:relative;
+    margin:-6px 1px 2px -2px;
+    border-radius: 69px;
+    background: #005d70;
+    box-shadow:  8px 8px 16px #004f5f,
+                 -8px -8px 16px #006b81;
+            
+                 
+  }
+
+  .navbar-brand img:hover {
+    border-radius: 69px;
+    background: #005161;
+    box-shadow: inset 8px 8px 16px #004f5f,
+            inset -8px -8px 16px #006b81;
+  }
+
+.list-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    list-style: none;
+    
+}
+
+.list-container li {
+    padding: 10px;
+    margin: 0 20px 0 0;
+    border-radius: 10px;
+    background: #005d70;
+    box-shadow:  2px 2px 4px #004f5f,
+                 -2px -2px 4px #006b81;
+                 
+                
+}
+
+.list-container li  button {
+    color: #cdcdcd;
+    padding: 5px;
+    font-size:larger;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.list-container li:hover {
+    transition: all ease-in 0.8s;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #005d70;
+    box-shadow:  inset 2px 2px 4px #004f5f,
+                 inset -2px -2px 4px #006b81;
+                 
+}
+
+.navbar-smallscreen {
+    display: none;
+}
+
+.app__navbar-smallscreen_overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 40vh;
+    transition:  .5s ease;
+    flex-direction: column;
+    background-color: rgba(244, 244, 244, 0.98);
+   
+    
+}
+
+.app__navbar-smallscreen_overlay .closeIcon {
+    font-size: 27px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+}
+
+.app__navbar-smallscreen_links  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: center;
+    list-style: none;
+}
+.app__navbar-smallscreen_links li {
+    padding: 5px;
+}
+
+
+.app__navbar-smallscreen_links li a:active {
+    border-bottom: 1px solid rgb(200, 160, 0);
+}
+
+@media screen and (max-width: 760px) {
+    .list-container {
+        display: none;
+    }
+    .navbar-smallscreen {
+        display: flex;
+        border: none;
+        background: none;
+        font-size: 30px;
+        color: rgb(181, 144, 0);
+        margin-right: 20px;
+    }
+}

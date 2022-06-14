@@ -1,0 +1,81 @@
+.contenedor-forms {
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.contenedor-forms h2 {
+    color: rgb(33, 33, 33);
+    text-shadow: 1px 3px 4px rgba(0,0,0,0.61);
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.forms {
+    padding: 20px;
+    height: auto;
+    background-color: rgb(217, 217, 217);
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width: 600px;
+}
+
+.contact-icon_github {
+    font-size: 40px;
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.contact-icon_linkdin {
+    font-size: 40px;
+    margin: 1rem;
+    text-decoration: none;
+    color: #0e76a8;
+    transition: 0.2s;
+}
+
+.contact-icon_gmail {
+    font-size: 40px;
+    margin: 1rem;
+    text-decoration: none;
+    color: rgb(194, 4, 4);
+    transition: 0.2s;
+}
+
+.contact-icon_wpp{
+    font-size: 40px;
+    margin: 1rem;
+    text-decoration: none;
+    color: rgb(13, 194, 7);
+    transition: 0.2s;
+}
+
+.contact-icon_linkdin:hover {
+    cursor: pointer;
+    transform: translateY(-3px) scale(1.2);
+}
+
+.contact-icon_github:hover {
+    cursor: pointer;
+    transform: translateY(-3px) scale(1.2);
+}
+
+.contact-icon_gmail:hover {
+    cursor: pointer;
+    transform: translateY(-3px) scale(1.2);
+}
+
+.contact-icon_wpp:hover {
+    cursor: pointer;
+    transform: translateY(-3px) scale(1.2);
+}
