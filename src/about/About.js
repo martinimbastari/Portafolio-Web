@@ -9,7 +9,7 @@ import "../about/about.css"
 export default function About() {
   return (
     <>
-        <section className='about'>
+        <section id='about' className='about'>
             <div className='main'>
                 <img src={foto}/>
                 <div className='about-text'>

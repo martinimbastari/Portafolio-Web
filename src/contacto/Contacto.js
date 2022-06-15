@@ -9,13 +9,16 @@ import "../contacto/contacto.css"
 export default function Contacto() {
   return (
     <>
-    <div className='contenedor-forms'>
+    <div id='contacto' className='contenedor-forms'>
         <h2>Contactame</h2>
         <div className='contenedor-redes'>
             <button><a target="_blank" href='https://github.com/martinimbastari?tab=repositories'><BsGithub className='contact-icon_github'/></a></button>
+
             <button><a target="_blank" href='https://www.linkedin.com/in/martin-imbastari/'><BsLinkedin className='contact-icon_linkdin'/></a></button>
-            <button><a target="_blank" href='https://www.linkedin.com/in/martin-imbastari/'><SiGmail className='contact-icon_gmail'/></a></button>
-            <button><a target="_blank" href='https://www.linkedin.com/in/martin-imbastari/'><BsWhatsapp className='contact-icon_wpp'/></a></button>
+
+            <button><a target="_blank" href='mailto:martin.imbastari98@gmail.com'><SiGmail className='contact-icon_gmail'/></a></button>
+
+            <button><a target="_blank" href='https://wa.link/niulkt'><BsWhatsapp className='contact-icon_wpp'/></a></button>
         </div>
     {/* <form className='forms'>
   <div className="form-group">

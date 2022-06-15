@@ -13,16 +13,18 @@ export default function Navbar() {
 
   return (
     <>
-        <nav className="navbar position-fixed navbar-expand-lg ">
+        <nav className="navbar position-fixed ">
             <div className='container-fluid'>
-            <button className="navbar-brand" >
-                <img className='logo' alt='logo' width="100px" src={logo}/>
+            <button className="navbar-brand">
+                <a href='#'>
+                    <img className='logo' alt='logo' width="100px" src={logo}/>
+                </a>
                 </button>
                 <ul className='list-container'>
-                    <li><button>Sobre mi</button></li>
-                    <li><button>Skills</button></li>
-                    <li><button>Mi trabajo</button></li>
-                    <li><button>Contacto</button></li>
+                    <li><button><a href='#about'>Sobre mi</a></button></li>
+                    <li><button><a href='#skills'>Skills</a></button></li>
+                    <li><button><a href='#trabajo'>Mi trabajo</a></button></li>
+                    <li><button><a href='#contacto'>Contacto</a></button></li>
                 </ul>
                 <div className='navbar-smallscreen'>
                     <GiHamburgerMenu className='menu-boton' onClick={() => setToggleMenu(true)} fontSize="larger"/>

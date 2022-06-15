@@ -33,10 +33,10 @@
 .boton {
     color: rgb(21, 21, 21);
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
     border-radius: 50px;
-background: #ed9702;
-box-shadow:  5px 5px 7px #c98002,
+    background: #ed9702;
+    box-shadow:  5px 5px 7px #c98002,
              -5px -5px 7px #ffae02;
 }
 
@@ -45,5 +45,14 @@ box-shadow:  5px 5px 7px #c98002,
 background: #ed9702;
 box-shadow: inset 5px 5px 7px #c98002,
             inset -5px -5px 7px #ffae02;
+}
+
+.boton a {
+    text-decoration: none;
+    color: #242424;
+}
+
+.boton a:hover {
+    color: #242424;
 }
 

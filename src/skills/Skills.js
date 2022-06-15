@@ -12,7 +12,7 @@ import "../skills/skills.css"
 export default function Skills() {
   return (
     <>
-        <section className='skills'>
+        <section id='skills' className='skills'>
             <div className='main-skills'>
                 <div className='row'>
                     <div className='skills-text col-lg-8 p-5 mt-3'>

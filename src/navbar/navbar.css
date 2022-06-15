@@ -3,6 +3,7 @@ button {
     background: none;
 }
 
+
 .navbar {
     display: flex;
     align-items: center;
@@ -52,7 +53,8 @@ button {
                 
 }
 
-.list-container li  button {
+.list-container li  button a {
+    text-decoration: none;
     color: #cdcdcd;
     padding: 5px;
     font-size:larger;
