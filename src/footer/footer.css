@@ -13,3 +13,9 @@
     color: aliceblue;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width:750px) {
+    .contenedor-footer p {
+    font-size: 15px;
+    }
+}

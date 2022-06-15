@@ -32,10 +32,10 @@ export default function Navbar() {
                         <div className='app__navbar-smallscreen_overlay'>
                             <GrClose className='closeIcon' onClick={() => setToggleMenu(false)} />
                             <ul className='app__navbar-smallscreen_links'>
-                                <li><button>Sobre mi</button></li>
-                                <li><button>Skills</button></li>
-                                <li><button>Mi trabajo</button></li>
-                                <li><button>Contacto</button></li>
+                                <li><button><a href='#about'>Sobre mi</a></button></li>
+                                <li><button><a href='#skills'>Skills</a></button></li>
+                                <li><button><a href='#trabajo'>Mi trabajo</a></button></li>
+                                <li><button><a href='#contacto'>Contacto</a></button></li>
                             </ul>
                         </div>
                     )}

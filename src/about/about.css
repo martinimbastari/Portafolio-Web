@@ -18,8 +18,7 @@
 }
 
 .main {
-    width: 1130px;
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -81,6 +80,37 @@
 .about-icon_github:hover {
     cursor: pointer;
     transform: translateY(-3px) scale(1.2);
+}
+
+@media screen and (max-width:750px) {
+    .about img {
+        display: none;
+    }
+
+    .about {
+        padding: 2rem;
+    }
+
+    .main {
+        padding: 1rem;
+    }
+
+    .about-text h2 {
+        font-size: 60px;
+        
+    }
+    
+    .about-text h5 {
+        
+        font-size: 20px;
+       
+    }
+    
+    .about-text p {
+        font-size: 20px;
+    }
+
+   
 }
 
 

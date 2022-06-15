@@ -79,3 +79,21 @@
     cursor: pointer;
     transform: translateY(-3px) scale(1.2);
 }
+
+@media screen and (max-width: 750px) {
+    .contenedor-forms {
+        padding: 2rem;
+    }
+
+    .contenedor-forms h2 {
+        font-size: 45px;
+    }
+
+    .contact-icon_wpp,
+    .contact-icon_github,
+    .contact-icon_gmail,
+    .contact-icon_linkdin{
+        font-size: 30px;
+        
+    }
+}

@@ -10,8 +10,7 @@
 }
 
 .main-skills {
-    width: 1130px;
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -43,6 +42,7 @@
 
 .skills-list {
     margin-top: 5rem;
+    padding-top: 5rem;
 }
 
 
@@ -62,3 +62,43 @@
     font-size: 18px;
    }
 
+
+   @media screen and (max-width: 750px) {
+
+    .skills {
+        padding: 2rem;
+    }
+
+    .main-skills {
+        padding: 0 1rem;
+    }
+
+    .skills-text h2 {
+        font-size: 55px;
+        
+    }
+
+    .skills-list {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        padding: 0 5rem;
+        
+    }
+
+    .skills-list li {
+        font-size: 30px;
+    }
+
+    .skills-list li span{
+        font-size: 15px;
+    }
+    
+    .skills-text p {
+        font-size: 20px;
+    }
+    
+    .about-text p {
+        font-size: 20px;
+    }
+
+   }

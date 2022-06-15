@@ -56,3 +56,14 @@ box-shadow: inset 5px 5px 7px #c98002,
     color: #242424;
 }
 
+
+@media screen and (max-width: 750px) {
+    .contenedor-cards {
+        padding: 2rem;
+    }
+
+    .contenedor-cards h2 {
+        font-size: 65px;
+    }
+}
+

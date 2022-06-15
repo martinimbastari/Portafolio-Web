@@ -19,7 +19,7 @@ export default function Skills() {
                         <h2>Mis Habilidades</h2>
                         <p>Cuento con habilidades enfocadas en desarrollo web frontend, aunque me capacito en backend también, me considero una persona con buena capacidad resolutiva, me gusta trabajar en equipo y recibir consejos de gente mas experimentada asi como tambien poder aportar mi granito de arena.</p>
                     </div>
-                    <div className='col-lg-4 skills-list mt-5 pt-5'>
+                    <div className='col-lg-4  skills-list'>
                         <ul>
                         <h2>Habilidades tecnicas:</h2>
                             <li><SiJavascript color='#F0DB4F'/><span>JAVASCRIPT</span></li>

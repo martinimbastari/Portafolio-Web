@@ -1,13 +1,14 @@
+html {
+    width: 100%;
+}
 .container-header {
     text-align: center;
-    /* height: 100vh; */
+    width: 100%;
 }
 
 .container-header img {
     height: 100vh;
-    /* background-position: center;
-    background-size: auto;
-    width: 100%; */
+    width: 100%;
 }
 
 .text {
