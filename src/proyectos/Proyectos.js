@@ -1,6 +1,6 @@
 import React from 'react'
 import ecommerce from "../assets/ecommerce.png"
-import calculadora from "../assets/Calculadora.png"
+import calculadora from "../assets/calculadoraneo.png"
 import landing from "../assets/landing.png"
 import wheater from "../assets/wheaterapp.png"
 import marvel from "../assets/marvel.png"
@@ -25,7 +25,7 @@ export default function Proyectos() {
             <img className="card-img-top" src={calculadora} alt="Card image cap"/>
             <div className="card-body">
                 <h5  className="m-2 card-title">Calculadora</h5>
-                <p className="m-2 card-text">Realice una calculadora en javascript, maquetandola con html y css puro.</p>
+                <p className="m-2 card-text">Realice una calculadora en javascript, maquetandola con html y css puro utilizando los efectos de neomorphism.</p>
                 <button href="#" className="boton m-2"><a target="_blank" href="https://calculadora-martin.vercel.app/">Ver demo</a></button>
                 <button href="#" className="boton"><a target="_blank" href="https://github.com/martinimbastari/Calculadora">Ver Repositorio</a></button>
             </div>
