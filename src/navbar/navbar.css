@@ -3,12 +3,20 @@ button {
     background: none;
 }
 
+.posicion {
+    position: fixed;
+}
+
 
 .navbar {
+    z-index: 100;
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #005d70;
+    /* background-color: #005d70; */
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 10px 20px 5px rgba(0,0,0,0.1);
 }
 
 .navbar-brand {
@@ -16,22 +24,11 @@ button {
 }
 
 .navbar-brand img {
-    display:block;
-    position:relative;
-    margin:-6px 1px 2px -2px;
-    border-radius: 69px;
-    background: #005d70;
-    box-shadow:  8px 8px 16px #004f5f,
-                 -8px -8px 16px #006b81;
-            
-                 
+    transition: all 0.2s;                     
   }
 
   .navbar-brand img:hover {
-    border-radius: 69px;
-    background: #005161;
-    box-shadow: inset 8px 8px 16px #004f5f,
-            inset -8px -8px 16px #006b81;
+    transform: translateY(0px) scale(1.05);
   }
 
 .list-container {
@@ -46,16 +43,13 @@ button {
     padding: 10px;
     margin: 0 20px 0 0;
     border-radius: 10px;
-    background: #005d70;
-    box-shadow:  2px 2px 4px #004f5f,
-                 -2px -2px 4px #006b81;
                  
                 
 }
 
 .list-container li  button a {
     text-decoration: none;
-    color: #cdcdcd;
+    color: #313131;
     padding: 5px;
     font-size:larger;
     font-weight: 600;
@@ -64,13 +58,10 @@ button {
 }
 
 .list-container li:hover {
-    transition: all ease-in 0.8s;
+    transition: all  0.2s;
     cursor: pointer;
     border-radius: 10px;
-    background: #005d70;
-    box-shadow:  inset 2px 2px 4px #004f5f,
-                 inset -2px -2px 4px #006b81;
-                 
+    background: rgba(255,255,255,0.5);        
 }
 
 .navbar-smallscreen {
@@ -86,7 +77,9 @@ button {
     height: 40vh;
     transition:  .5s ease;
     flex-direction: column;
-    background-color: #00424f;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 10px 20px 5px rgba(0,0,0,0.1);
     transition: all 0.3s;
     
     
@@ -122,7 +115,7 @@ button {
 
 .app__navbar-smallscreen_links li button a {
     text-decoration: none;
-    color: rgb(210, 143, 0);
+    color: rgb(221, 221, 221);
     font-weight: 600;
 }
 
@@ -135,7 +128,7 @@ button {
         border: none;
         background: none;
         font-size: 30px;
-        color: rgb(181, 144, 0);
+        color: rgb(29, 29, 29);
         margin-right: 20px;
     }
 }
