@@ -4,6 +4,7 @@ import calculadora from "../assets/calculadoraneo.png"
 import landing from "../assets/landing.png"
 import wheater from "../assets/wheaterapp.png"
 import marvel from "../assets/marvel.png"
+import taskList from "../assets/lista-de-tareas.png"
 
 import "../proyectos/proyectos.css"
 
@@ -40,12 +41,12 @@ export default function Proyectos() {
             </div>
     </div>
     <div className="cards p-0 col-lg-5 mb-5">
-            <img className="card-img-top" src={landing} alt="Card image cap"/>
+            <img className="card-img-top" src={taskList} alt="Card image cap"/>
             <div className="card-body">
-                <h5  className="m-2 card-title">Landing page</h5>
-                <p className="m-2 card-text">Maquetado de un sitio web estilo landing para escritorio unicamente.(no responsive)</p>
-                <button href="#" className="btn-demo m-2"><a target="_blank" href="https://landing-challenge.vercel.app/">Ver demo →</a></button>
-                <button href="#" className="btn-repo"><a target="_blank" href="https://github.com/martinimbastari/Landing-challenge">Ver Repositorio →</a></button>
+                <h5  className="m-2 card-title">Lista de tareas</h5>
+                <p className="m-2 card-text">Cree una lista de tareas con react, typescript y bootswatch para estilos y maquetado</p>
+                <button href="#" className="btn-demo m-2"><a target="_blank" href="https://lista-de-tareas-ten.vercel.app/">Ver demo →</a></button>
+                <button href="#" className="btn-repo"><a target="_blank" href="https://github.com/martinimbastari/lista-de-tareas">Ver Repositorio →</a></button>
             </div>
     </div>
     <div className="cards p-0 col-lg-5 mb-5">
